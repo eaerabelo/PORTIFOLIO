@@ -1,0 +1,106 @@
+/* Fundo com gradiente roxo, rosa e preto */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #8A2BE2, #FF1493, #000000);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilização geral das seções */
+section {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Estilo dos títulos */
+h1, h2, h3 {
+    color: #FF1493;
+}
+
+/* Labels e inputs */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Inputs estilizados */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 58px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;;
+}
+
+/* Placeholder mais visível */
+input::placeholder, textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Botão de envio */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #FF1493;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #8A2BE2;
+}
+tbody{ 
+    margin: 0rem;
+    padding: 1.2rem;
+
+}
+
+/* Imagens responsivas */
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+table{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #FF1493;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+footer{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #8A2BE2, #FF1493, #000000);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+
+}
