@@ -1,0 +1,190 @@
+    <!DOCTYPE html>
+    <html lang="pt-br,en">
+    <head> <!--META DADOS-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="https://www.w3schools.com/favicon.ico">
+        <title>QUESTIONARIO</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body><!--CORPO DO PROJETO-->
+        <header><!--INTRODUÇÃO-->
+        <!--INTRODUÇÃO-->
+            <h1>TESTE DE CONHECIMENTOS!</h1>    
+            <p><strong>Responda a seguir</strong> algumas questões!</p>
+        </header>    
+        <main> <!--CONTEUDO PRINCIPAL-->
+            <section> <!--PERGUNTA 1 = QUESTÃO-->
+                <h2>QUESTIONARIO</h2>
+                <h3>Pergunta 1:</h3>
+                <p><strong>Qual codigo é usado para digitar e imprimir na tela em <abbr title="Java Script">JS</abbr>?</strong></p>
+                <form>
+                    <input type="radio" value="Python" id="p1a" name="Pergunta1">
+                    <label for="p1a">print("hello world")</label><br>
+                    <input type="radio" value="JavaScript" id="p1b" name="Pergunta1">
+                    <label for="p1a">console.log('hello world')</label><br>
+                    <input type="radio" value="Java" id="p1c" name="Pergunta1">
+                    <label for="p1a">System.out.println("Hello, World!")</label><br>
+                    <input type="radio" value="css" id="p1d" name="Pergunta1">
+                    <label for="p1a">fun main( ) { println("Hello, World!") }</label><br>
+                </form>
+            </section>
+            <section> <!--PERGUNTA 2 = QUESTÃO-->
+                <h3>Pergunta 2 </h3>
+                <p><strong>Qual linguagem de programação , representa este código:<BR> <BR>function verificaNumero(numero) {
+                    return numero > 10; //<BR>Retorna true se o número for maior que 10 <BR>,senão retorna false <BR>
+                console.log(verificaNumero(15)); // true<BR>
+                console.log(verificaNumero(5));  // false<BR></strong> 
+                </p>    
+                <form>
+                    <input type="radio" value="Python" id="p1a" name="Pergunta1">
+                    <label for="p1a">Python</label><br>
+                    <input type="radio" value="JavaScript" id="p1b" name="Pergunta1">
+                    <label for="p1a">Kotlin</label><br>
+                    <input type="radio" value="Java" id="p1c" name="Pergunta1">
+                    <label for="p1a">JavaScript</label><br>
+                    <input type="radio" value="css" id="p1d" name="Pergunta1">
+                    <label for="p1a">ruby</label><br>
+                </form>
+            </section>
+            <section> <!--PERGUNTA 3 = TEXTO-->
+                <H3>Pergunta 3</H3>
+                <P>Na Url : https://www.google.com , o trecho "google.com" é o ________ :</P>
+                <form>
+                    <input type="text" id="p2" name="Pergunta2" placeholder="Digite sua resposta...">
+                </form>
+            </section>
+            <section> <!--PERGUNTA 4 = SENHA-->
+                <h3>Pergunta 4</h3>
+                <P>Escreve um exemplo de senha forte:</P>
+                <form>
+                    <input type="password" id="p4" name="Pergunta4" placeholder="Digite uma Senha...">
+                </form>
+            </section>
+            <section> <!--PERGUNTA 5 = DATA-->
+                <h3>Pergunta 5</h3>
+                <P>Em Qual ano HTML lançou sua primeira versão?</P>
+                <form>
+                    <input type="date" id="p5" name="Pergunta5">
+                </form>
+
+            </section>
+            <section> <!--PERGUNTA 6 = SELECIONE O CORRETO-->
+                <h3>Pergunta 6</h3>
+                <p> Quais tecnologias são consideradas linguagens de programação:</p>
+                <form>
+                    <input type="checkbox" id="p6a" name="Pergunta6" value="JavaScript">
+                    <label for="p6a">JavaScript</label><br>
+                    <input type="checkbox" id="p6b" name="Pergunta6" value="html">
+                    <label for="p6a">HTML</label><br>
+                    <input type="checkbox" id="p6c" name="Pergunta6" value="JavaScript">
+                    <label for="p6a">Python</label><br>
+                    <input type="checkbox" id="p6d" name="Pergunta6" value="JavaScript">
+                    <label for="p6a">Css</label><br>
+                </form>
+            </section>
+            <section> <!--PERGUNTA 7 = UPLOAD-->
+                <h3>Pergunta 7</h3>
+                <p>Faça um upload de um arquivo contendo codigo HTML :</p>
+                <form>
+                    <input type="file" id="p7" name="Pergunta7">
+                </form>
+            </section>
+            <section> <!--PERGUNTA 8 = MENU SUSPENSO-->
+                <h3>Pergunta 8</h3>  
+                <p>Selecione o atributo do input que define o seu tipo:</p>
+                <form>
+                    <select name="Pergunta8" id="p8">
+                        <option value="id">id</option>
+                        <option value="type">type</option>
+                        <option value="placeholder">placeholder</option>
+                        <option value="text">text</option>
+                        <option value="input">input</option>
+                    </select>
+                </form>
+            </section>
+            <section> <!--PERGUNTA 9 = REPONDA A IMAGEM-->
+                <h3>Pergunta 9</h3>
+                <p>Qual linguagem de programação é representada por esta logotipo abaio:</p>
+                <figure>
+                    <img src="https://www.luisdev.com.br/wp-content/uploads/2021/03/Desktop-1.png" alt="logotipo de uma linguagem de programação">
+                    <figcaption>Figura ilustrativa:de uma linguagem de programação</figcaption>
+                </figure>
+                <input type="text" name="Pergunta9" id="p9" placeholder="Digite sua resposta...">
+            </section>
+            <section> <!--TABELA DE PONTUAÇÃO-->
+                <h3>Tabela de pontuação</h3>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>pontuação</th>
+                            <th>Avaliação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Não desista!,continuem tentando</td>
+                    </tr>
+                    <tr>    
+                        <td>3-4 </td>
+                        <td> continuem tentando</td>
+                    </tr>
+                    <tr>
+                        <td>4-5</td>
+                        <td>Vamo la , ta quase</td>
+                    </tr>
+                    <tr>
+                        <td>5-7</td>
+                        <td>to gostando de ver ein!</td>
+                    <tr>
+                        <td>7-9</td>
+                        <td>otimo!</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Nota perfeita! sabe muito!</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section> <!--RESPOSTA DO QUIZ-->
+                <h3>Verifique suas resposta!</h3>
+                <details>
+                    <summary>Clique aqui para ver as respostas do quiz</summary>
+                <ol>
+                    <li>console.log</li>
+                    <li>JavaScript</li>
+                    <li>dominio</li>
+                    <li>656887@#$%</li>
+                    <li>1991</li>
+                    <li>JavaScript e Python</li>
+                    <li>arquivo.html</li>
+                    <li>text</li>
+                    <li>Csharp</li>
+                </ol>
+                </details>
+            </section>
+            <section>  <!--FEEDBACK-->
+                <h3>Nôs dê o seu feeddback:</h3>
+                <form>
+                    <fieldset>
+                    <legend>Informações de Contato</legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" placeholder="escreva seu nome aqui...">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="name" id="email" placeholder="abc.exemplo@exemplo.com...">
+                    <label for="comentarios">comentarios:</label>
+                    <input type="text" name="name" id="comentarios" placeholder="escreva algo...">
+                    <textarea id="comentarios" name="comentarios" rows="5" cols="10" placeholder="   Digite seus comentarios aqui..."></textarea>
+                    <button onclick="alert('FEEDBACK ENVIADO!')">Envie o feeddback</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer> <!--RODAPÊ-->
+            <p>&copy; 2025 Todos os direitos reservados / <em>Desenvolvido por Matheus Rabelo</em></p>
+            <p>para mais Informações <a href="https://chatgpt.com/c/67dc460e-4174-800f-84d8-02fc2ead2dd1" target="_blank">clique aqui</a></p>
+        </footer>
+    </body>
+    </html>
